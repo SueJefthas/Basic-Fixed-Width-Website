@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Basic Fixed-Width Website | Sue-Adrie</title>
+	<style>
+		header {padding: 25px 15px 10px 15px;}
+		img {width: 100%; height: auto;}
+		#logo-img {width: 290px; float: left; padding-right: 50px;}
+		#title {width: 640px; float: left;}
+		h1 {color: #555555;	padding: 0;	margin: 0;}
+		nav {background-color: #940000;	padding-left: 0; padding-right: 0;}
+		#nav-links {list-style-type: none; margin: 0; padding-left: 0; overflow: hidden;}
+		#nav-links li {float:left; padding:0;}
+		#nav-links li a, .no-active {display:block; color: #ffffff; text-align: center; height: 100%; padding: 8px 16px;}
+		#nav-links li a:hover:not(.active) {background-color: #e8e5e5; color: #940000;}
+		.active {background-color: #ffffff;color: #940000 !important;}
+	</style>
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="http://weloveiconfonts.com/api/?family=entypo" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div id="logo-img">
+				<a href="index.html"><img src="img/logo-3.png" alt=""></a>
+			</div>
+			<div id="title">
+				<h1>BASIC FIXED-WIDTH WEBSITE</h1>
+				<h3>SUE-ADRIE JEFTHAS</h3>
+			</div>
+			<div class="clear"></div>
+		</header>
+		<nav>	
+			<ul id="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html" class="active">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div class="content-wrapper">
+		<h2>Contact Us</h2>
+			<div class="contact-text">
+				<p>
+					<strong>Tel</strong><br>
+					+00 00 000 0000<br>
+					<strong>Fax</strong><br>
+					+00 00 000 0000
+				</p>
+				<p>
+					<strong>E-mail</strong><br>
+					<a href="mailto:#">someone@company.com</a>
+				</p>
+				<p>
+					<strong>Address</strong><br>
+					Street Address<br>
+					Town<br>
+					City<br>
+					Country
+				</p>
+			</div>
+			<div class="contact-form">
+				<strong>Send your comments or enquiry</strong><br>
+				<form action="mailto:sueadriejefthas@gmail.com" method="post" enctype="text/plain">
+					<input type="text" placeholder="Name" required><br>
+					<input type="email" placeholder="Email" required><br>
+					<textarea rows="10" placeholder="Comment"></textarea><br>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div><!--content-wrapper-->
+		<footer>
+			<div id="footer-text">
+				<p>Basic fixed-width website by: SUE-ADRIE JEFTHAS</p>
+			</div>
+			<div id="footer-social-media">
+				<ul class="social-icons">
+				  <li><a href="#"><span class="entypo-facebook-circled"</span></a></li>
+				  <li><a href="#"><span class="entypo-twitter-circled"></span></a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</footer>
+	</div><!--container-->
+</body>
+</html>
